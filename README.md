@@ -56,11 +56,11 @@ Testing financial applications manually is inefficient and often incomplete. Thi
    ```
 3. Start the Flask server  
    ```sh
-   python app.py
+   Context_aware_test case_generator.ipynb
    ```
 4. Run the Selenium test script  
    ```sh
-   python test_runner.py
+   python TESTCASE_automantion.py
    ```
 
 ## 🏗️ Tech Stack
