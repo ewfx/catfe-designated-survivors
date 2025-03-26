@@ -8,7 +8,7 @@ from watchdog.events import FileSystemEventHandler
 from tqdm import tqdm  # Progress bar
 
 # Define path to test case file
-TEST_CASE_FILE = "C:\\Users\\91868\\Downloads\\generated_test_cases (2).xlsx"
+TEST_CASE_FILE = "C:\\Users\\91868\\Downloads\\generated_test_cases.xlsx"
 
 # Selenium WebDriver setup (Ensure ChromeDriver is installed)
 options = webdriver.ChromeOptions()
@@ -47,11 +47,11 @@ def login(username, password):
 
 # Function to execute a single test case
 def execute_test_case(test_case):
-    print(f"\n📝 Executing: {test_case['test_case']}")
+    print(f"\n📝 Executing: {test_case['Test Case']}")
 
     driver.get("http://localhost:5000")  # Ensure login before proceeding
 
-    if "foreign exchange transaction with incorrect details" in test_case["test_case"]:
+    if "foreign exchange transaction with incorrect details" in test_case["Test Case"]:
         try:
             driver.get("http://localhost:5000/calculate_fee")
 
@@ -72,7 +72,7 @@ def execute_test_case(test_case):
             print(f"❌ Error: {str(e)}")
             return "Fail"
 
-    elif "unauthorized access" in test_case["test_case"]:
+    elif "unauthorized access" in test_case["Test Case"]:
         try:
             driver.get("http://localhost:5000/calculate_fee")  # Try accessing without login
 
