@@ -17,11 +17,9 @@
 Financial applications require rigorous testing to ensure compliance, security, and accuracy. Manually creating test cases is time-consuming and prone to errors. This project automates test case generation and execution using an AI-driven approach with a T5-based model, Flask, JIRA integration, and Selenium.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
 
-![Screenshot 1](link-to-image)
+📹 [Video Demo](https://www.youtube.com/watch?v=-bTV99C4uVQ) 
+
 
 ## 💡 Inspiration
 Testing financial applications manually is inefficient and often incomplete. This project was inspired by the need for a scalable and intelligent testing system that ensures financial transactions are processed correctly while reducing manual effort.
