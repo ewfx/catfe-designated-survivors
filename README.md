@@ -71,8 +71,12 @@ Testing financial applications manually is inefficient and often incomplete. Thi
 - **Sample App**: Flask-based Transaction Fee Calculator
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Naren** -
+- **Rakesh**-
+- **Venkat**-
+- **Chandra**--
+- **Jayanht**-
+
 
 This project streamlines financial application testing, making it faster, smarter, and more efficient! 🚀
 
